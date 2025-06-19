@@ -1,0 +1,2 @@
+# Cognizant_My_Solutions
+GenC_Intern_8Weeks_Solutions
