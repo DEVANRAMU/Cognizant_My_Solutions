@@ -37,5 +37,5 @@ Every folder includes:
 You can clone this repository and explore individual weeks to see the solution logic, workflow diagrams, or walkthroughs:
 
 ```bash
-git clone https://github.com/DEVANRAMU/genc-internship-2025.git
-cd genc-internship-2025/Week-01
+git clone https://github.com/DEVANRAMU/Cognizant_My_Solutions.git
+cd Cognizant_My_Solutions/Week-01
