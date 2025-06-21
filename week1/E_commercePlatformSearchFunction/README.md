@@ -22,7 +22,9 @@
 - Which algorithm suits large-scale e-commerce platforms better, and why?
 
 ✅ 1. Understanding Asymptotic Notation
+
 📌 What is Big O Notation?
+
 Big O notation describes the upper bound (worst-case growth rate) of an algorithm’s time or space complexity in terms of input size n.
 
 It helps developers:
@@ -34,6 +36,7 @@ Compare efficiency between algorithms
 Choose the right algorithm for large-scale systems like e-commerce platforms
 
 ✅ 2. Setup
+
 Why is a Product class needed?
 
 The Product class acts as a data model that encapsulates essential attributes of a product (such as ID, name, and category). This abstraction makes it easy to manage, sort, and search through product records. Without such a class, product data would be unstructured and harder to process efficiently.
@@ -53,13 +56,12 @@ category: Helps in filtered or grouped searches (e.g., "Electronics", "Footwear"
 These fields make searches flexible and user-friendly by enabling different filters and views.
 
 ✅ 3. Implementation
+
 How is Linear Search implemented on an array of products?
 
 In linear search, each product in the array is checked one by one to see if it matches the search term. For example, if you're searching for "Shoes", the algorithm goes through each element:
 
-java
-Copy
-Edit
+
 for (int i = 0; i < products.length; i++) {
     if (products[i].getProductName().equalsIgnoreCase(searchItem)) {
         return i; // Found at this index
@@ -85,18 +87,21 @@ Binary search is significantly more efficient, but only when the dataset is sort
 
 
 ✅ 4. Analysis: Time Complexity
+
 Algorithm	Time Complexity (Best)	Time Complexity (Worst)
 Linear Search	O(1)	O(n)
 Binary Search	O(1)	O(log n)
 
 💡 Which is better for E-commerce platforms?
-Use Linear Search:
+
+# Use Linear Search:
 
 For small datasets
 
 When the list is unsorted
 
-Use Binary Search:
+
+# Use Binary Search:
 
 For large datasets
 
@@ -108,9 +113,7 @@ Faster and scales better with large product catalogs
 
 ## 1. Understanding Asymptotic Notation
 
-**Big O Notation**: Describes the upper bound time complexity of an algorithm...
-
-...
+**Big O Notation**: Describes the upper bound time complexity of an algorithm
 
 ## 4. Analysis: Time Complexity Comparison
 
