@@ -16,6 +16,7 @@ It’s commonly used when:
 ---
 
 ## 📁 Project Structure
+
 Cognizant_My_Solutions/
 ├── SingletonPatternExample/
 ├── FactoryMethodPatternExample/
@@ -34,6 +35,23 @@ Cognizant_My_Solutions/
 │   │               └── TestDocumentFactory.java
 │   ├── README.md
 │   └── .gitignore
+
+FactoryMethodPatternExample/
+├── src/
+│ └── com/
+│ └── factory/
+│ └── example/
+│ ├── Document.java
+│ ├── WordDocument.java
+│ ├── PdfDocument.java
+│ ├── ExcelDocument.java
+│ ├── DocumentFactory.java
+│ ├── WordDocumentFactory.java
+│ ├── PdfDocumentFactory.java
+│ ├── ExcelDocumentFactory.java
+│ └── TestDocumentFactory.java
+├── README.md
+└── .gitignore
 
 
 
@@ -79,4 +97,8 @@ Opening Excel document...
 ## 🧠 Author & Credits
 
 Developed by **DEVAN RAMU**  
+
 Submitted as part of **Cognizant Java Design Pattern Practice Tasks**
+
+Submitted as part of **Cognizant Java Design Pattern Practice Tasks**
+

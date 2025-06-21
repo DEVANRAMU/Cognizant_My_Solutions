@@ -1,5 +1,3 @@
-# Cognizant_My_Solutions
-GenC_Intern_8Weeks_Solutions
 # GenC Internship Program – Weekly Assignments Repository
 
 Welcome to the official repository for my solutions and learnings from the **Cognizant GenC (Generation Cognizant)** 8-week internship program. This repository documents weekly assignments, project submissions, and any additional exercises covered during the training period.
@@ -18,6 +16,14 @@ The program not only strengthens theoretical knowledge but also emphasizes pract
 ## 🗂 Repository Structure
 
 Each week's content will be organized into its corresponding folder:
+week 1
+week 2
+week 3
+week 4
+week 5
+week 6
+week 7
+week 8
 
 Every folder includes:
 
@@ -39,3 +45,4 @@ You can clone this repository and explore individual weeks to see the solution l
 ```bash
 git clone https://github.com/DEVANRAMU/Cognizant_My_Solutions.git
 cd Cognizant_My_Solutions/Week-01
+
