@@ -1,69 +1,48 @@
-# 🔒 Singleton Pattern Example
+# GenC Internship Program – Weekly Assignments Repository
 
-This Java project demonstrates the **Singleton Design Pattern**, which ensures that a class has only one instance throughout the application lifecycle.  
-It uses a simple `Logger` utility class to show how consistent logging can be managed via a Singleton instance.
+Welcome to the official repository for my solutions and learnings from the **Cognizant GenC (Generation Cognizant)** 8-week internship program. This repository documents weekly assignments, project submissions, and any additional exercises covered during the training period.
 
----
+## 📌 About the Program
 
-## 🎯 What is the Singleton Pattern?
+The **GenC Internship** is Cognizant's structured onboarding initiative designed to help graduates transition into the IT industry with hands-on experience and guided mentorship. Over 8 weeks, interns explore core technical concepts, work on real-world projects, and build foundational competencies in areas like:
 
-> The **Singleton Pattern** ensures that a class has only one instance and provides a global point of access to it.
+- Software Development
+- Cloud & DevOps
+- Data Engineering
+- Agile & SDLC Practices
 
-It is used when:
-- Exactly one object is needed to coordinate actions across the system.
-- Shared resources (like logging, configuration, or database connections) must be accessed consistently.
+The program not only strengthens theoretical knowledge but also emphasizes practical implementation, teamwork, and continuous learning.
 
----
+## 🗂 Repository Structure
 
-## 📁 Project Structure
-SingletonPatternExample/
-├── src/
-│ └── com/
-│ └── singleton/
-│ └── example/
-│ ├── Logger.java
-│ └── TestLogger.java
-├── README.md
-└── .gitignore
+Each week's content will be organized into its corresponding folder:
+week 1
+week 2
+week 3
+week 4
+week 5
+week 6
+week 7
+week 8
 
+Every folder includes:
 
----
+- Assignment description (if applicable)
+- My approach and methodology
+- Source code or scripts
+- Supporting notes or documentation
 
-## 📄 Class Overview
+## ✅ Technologies & Tools Used
 
-| Class         | Description |
-|---------------|-------------|
-| `Logger`      | Singleton class with a private static instance and a global access method |
-| `TestLogger`  | Test class that verifies the singleton behavior of `Logger` |
+- Programming Languages: `Java`, `Python`, `JavaScript`, etc.
+- Tools & Platforms: `Git`, `VS Code`, `Postman`, `Docker` (as applicable)
+- Concepts: `OOP`, `REST APIs`, `DBMS`, `SDLC`, `Agile`, `CI/CD`
 
----
+## 📖 How to Use
 
-## 🧪 How to Run
+You can clone this repository and explore individual weeks to see the solution logic, workflow diagrams, or walkthroughs:
 
-1. Open the project in **Eclipse** or any Java IDE.
-2. Run `TestLogger.java` as a Java Application.
+```bash
+git clone https://github.com/DEVANRAMU/Cognizant_My_Solutions.git
+cd Cognizant_My_Solutions/Week-01
 
----
-
-## ✅ Expected Output
-
-Logger initialized.
-Log: This is the first log message.
-Log: This is the second log message.
-Both logger instances are the same (Singleton works!).
-
-
----
-
-## 🚫 Why Singleton?
-
-- Prevents multiple instantiations of a class
-- Saves memory in resource-heavy utilities
-- Guarantees consistent behavior (e.g., log messages always go to the same file or console)
-
----
-
-## 🧠 Author & Credits
-
-Developed by **DEVAN RAMU**  
-Submitted as part of **Cognizant Java Design Pattern Practice Tasks**
