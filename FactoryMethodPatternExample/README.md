@@ -16,24 +16,22 @@ It’s commonly used when:
 ---
 
 ## 📁 Project Structure
-Cognizant_My_Solutions/
-├── SingletonPatternExample/
-├── FactoryMethodPatternExample/
-│   ├── src/
-│   │   └── com/
-│   │       └── factory/
-│   │           └── example/
-│   │               ├── Document.java
-│   │               ├── WordDocument.java
-│   │               ├── PdfDocument.java
-│   │               ├── ExcelDocument.java
-│   │               ├── DocumentFactory.java
-│   │               ├── WordDocumentFactory.java
-│   │               ├── PdfDocumentFactory.java
-│   │               ├── ExcelDocumentFactory.java
-│   │               └── TestDocumentFactory.java
-│   ├── README.md
-│   └── .gitignore
+FactoryMethodPatternExample/
+├── src/
+│ └── com/
+│ └── factory/
+│ └── example/
+│ ├── Document.java
+│ ├── WordDocument.java
+│ ├── PdfDocument.java
+│ ├── ExcelDocument.java
+│ ├── DocumentFactory.java
+│ ├── WordDocumentFactory.java
+│ ├── PdfDocumentFactory.java
+│ ├── ExcelDocumentFactory.java
+│ └── TestDocumentFactory.java
+├── README.md
+└── .gitignore
 
 
 
