@@ -15,7 +15,7 @@ A hands-on React project that demonstrates conditional rendering, dynamic list r
 
 ---
 
-## 🧠 What You'll Learn
+## 🧠 What I have Learnt
 
 In this lab, you will:
 
